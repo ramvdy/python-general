@@ -1,0 +1,100 @@
+>>> s = "sample slice"
+>>> s[-2:]
+'ce'
+>>> s[2:]
+'mple slice'
+>>> s[2:]
+'mple slice'
+>>> s[:2]
+'sa'
+>>> print(s[-2:])
+ce
+>>> print(s[:-2])
+sample sli
+>>> print(s[::])
+sample slice
+>>> print(s[::2])
+sml lc
+>>> print(s[::3])
+sp i
+>>> print(s[2::])
+mple slice
+>>> print(s[:2:])
+sa
+>>> print(s[1::])
+ample slice
+>>> print(s[1:])
+ample slice
+>>> print(s[::])
+sample slice
+>>> print(s[::1])
+sample slice
+>>> print(s[::2])
+sml lc
+>>> print(s[::-2])
+eisepa
+>>> print(s[::-1])
+ecils elpmas
+>>> print(s[1::-1])
+as
+>>> print(s[1::1])
+ample slice
+>>> print(s[1::])
+ample slice
+>>> print(s[1::-2])
+a
+>>> print(s[::-2])
+eisepa
+>>> print(s[2::-2])
+ms
+>>> print(s[2::-3])
+m
+>>> print(s[2::-4])
+m
+>>> print(s[2::-4])
+m
+>>> print(s[1::-1])
+as
+>>> print(s[1::])
+ample slice
+>>> print(s[1:])
+ample slice
+>>> print(s[::-2])
+eisepa
+>>> print(s[::-1])
+ecils elpmas
+>>> print(s[1::])
+ample slice
+>>> print(s[1::-1])
+as
+>>> print(s[2::-1])
+mas
+>>> print(s[2::-2])
+ms
+>>> print(s[:2:-1])
+ecils elp
+>>> print(s[:2])
+sa
+>>> print(s[1:1:-1])
+
+>>> print(s[1:3:-1])
+
+>>> print(s[3:3:-1])
+
+>>> print(s[3::-1])
+pmas
+>>> print(s[3:1:-1])
+pm
+>>> print(s[5:1:-1])
+elpm
+>>> print(s[6:1:-1])
+ elpm
+>>> print(s[6:0:-1])
+ elpma
+>>> print(s[6::-1])
+ elpmas
+>>> print(s[-1::-1])
+ecils elpmas
+>>> print(s[-2::-1])
+cils elpmas
+>>> print(s[-1::-1])
