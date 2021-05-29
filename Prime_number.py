@@ -17,3 +17,5 @@ while len(list_prime) < 10: #checking if we have lenght of list is less than 10
     #increament that number every time till
     num += 1
 print(list_prime)
+
+print("no changes done, just checking if i can upload these to git so printing this line")
